@@ -5,7 +5,7 @@ Accelerometers from the Samsung Galaxy S smartphone
 ==================================================================
 
 
-**Original Dataset used**
+** Original Dataset used **
 =========================================
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 Human Activity Recognition Using Smartphones Dataset
@@ -17,11 +17,11 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-**Combining the Datasets:**
+** Combining the Datasets: **
 =========================================
 Test data (30% of the samples) and Train data (70%) are combined under 1 dataset called X_all for a total of 10,299 observations.
 
-**Extracting Mean and Standard Deviation Measurements**
+** Extracting Mean and Standard Deviation Measurements **
 =========================================
 Extracting only the measurements of mean and standard deviation. Using the features dataset to identify the related measurements of mean and std. Resulting for a total of 79 measurements/variables of means and average.
 "tBodyAcc-mean()-X"               "tBodyAcc-mean()-Y"               "tBodyAcc-mean()-Z"              
@@ -52,13 +52,13 @@ Extracting only the measurements of mean and standard deviation. Using the featu
 "fBodyBodyGyroMag-meanFreq()"     "fBodyBodyGyroJerkMag-mean()"     "fBodyBodyGyroJerkMag-std()"     
 "fBodyBodyGyroJerkMag-meanFreq()"
 
-**Additional Variables to the dataset**
+** Additional Variables to the dataset **
 =========================================
 Three additional variables were added to the dataset
 1- Subject number
 2- Activity number reference (1- WALKING 2- WALKING_UPSTAIRS 3- WALKING_DOWNSTAIRS 4- SITTING 5-STANDING 6- LAYING)
 3- Activity Name
 
-New Dataset - Summarizing the mean and standard deviation
+** New Dataset - Summarizing the mean and standard deviation **
 =========================================
 Using the above data a new dataset is created summarizing the average of each variable for each activity and each subject.
